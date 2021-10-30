@@ -60,7 +60,7 @@ git commit -m "[enter message]"
 4. What is the command to publish your local changes to a remote repository?
 
 ```
-git push [alias] [branch]
+git push
 ```
 
 5. Which command would you use to check which files have been changed?
@@ -72,7 +72,7 @@ git status
 6. What is the git command to see a list of branches?
 
 ```
-git branch 
+git branch
 ```
 
 7. What command would you use to create a new branch?
