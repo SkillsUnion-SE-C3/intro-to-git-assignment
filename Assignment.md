@@ -14,12 +14,15 @@
 - [Learn Git Branching](https://learngitbranching.js.org/)
 
   Only complete the following exercises:
+
   1. Introduction to Git Commits
   2. Branching in Git 3
   3. Merging in Git
+
 - [A Visual Git Reference](http://marklodato.github.io/visual-git-guide/index-en.html)
 
   If you are looking for visual examples on various Git concepts then this is a great resource to help you build a mental model.
+
 - [Why the staging area is so useful?](https://gitolite.com/uses-of-index.html)
 - [Pro Git book](https://git-scm.com/book/en/v2) _(Free)_
 - [Git Immersion](https://gitimmersion.com/index.html)
@@ -32,7 +35,15 @@
 Make sure to read the 2 articles listed above on writing good commit messages. And come up with what you think would be a good commit message as an example.
 
 ```
-YOUR ANSWER
+A good commit message is a simple message that a developer can read. It normally states what has been added, changed or fixed. A good commit message tells the reader what part of the codebase was changed without them having to look at the code.
+If you are doing a project with in a team this will save a lot of time for you as you will know what exactly has been changed. in addition to this keeping a good commit message is like a history record of what you have done.
+
+> Examples
+> Fixed the sidebar
+> Added a header to the main page
+> Changed the code on line 25 to 30
+> Added a footer
+
 ```
 
 ### 2: Git Commands
@@ -40,55 +51,55 @@ YOUR ANSWER
 1. What is the command to initialize a directory into a Git repository?
 
 ```
-YOUR ANSWER
+git init
 ```
 
 2. What is the command to prepare a file to be committed?
 
 ```
-YOUR ANSWER
+git add
 ```
 
 3. Now that you have staged your changes, which command would need to commit them?
 
 ```
-YOUR ANSWER
+git commite -m
 ```
 
 4. What is the command to publish your local changes to a remote repository?
 
 ```
-YOUR ANSWER
+git push
 ```
 
 5. Which command would you use to check which files have been changed?
 
 ```
-YOUR ANSWER
+git status
 ```
 
 6. What is the git command to see a list of branches?
 
 ```
-YOUR ANSWER
+git branch
 ```
 
 7. What command would you use to create a new branch?
 
 ```
-YOUR ANSWER
+git branch (branch name)
 ```
 
 8. What command would you use to change between branches?
 
 ```
-YOUR ANSWER
+git checkout
 ```
 
 9. Which command would you use to see the changes you have made to your files vs the last commit?
 
 ```
-YOUR ANSWER
+git diff
 ```
 
 ## Submission Guidelines
